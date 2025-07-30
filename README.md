@@ -8,11 +8,11 @@
   <strong>A dynamic, object-oriented programming language with an Albanian-based syntax, built from scratch in C.</strong>
   <br>
   <br>
-  <a href="https://github.com/[YOUR_USERNAME]/dotal-lang/releases"><strong>Download Installer</strong></a>
+  <a href="https://github.com/VikShelby/dotal-lang/releases"><strong>Download Installer</strong></a>
   ·
-  <a href="https://github.com/[YOUR_USERNAME]/dotal-lang/issues">Report Bug</a>
+  <a href="https://github.com/VikShelby/dotal-lang/issues">Report Bug</a>
   ·
-  <a href="https://github.com/[YOUR_USERNAME]/dotal-lang/discussions">Request Feature</a>
+  <a href="https://github.com/VikShelby/dotal-lang/discussions">Request Feature</a>
 </p>
 
 ---
@@ -23,7 +23,7 @@
 
 The entire language is implemented in C99 with no external dependencies. It is not just an interpreter; it features a full **single-pass compiler** that generates a custom bytecode format, which is then executed on a fast, stack-based **Virtual Machine (VM)**.
 
-This project was created by **[Your Name] ([@your-github-username]([Link to Your GitHub Profile]))**, inspired by the incredible book ["Crafting Interpreters"](https://craftinginterpreters.com/) by Bob Nystrom.
+This project was created by **[Your Name] (@VikShelby (https://github.com/VikShelby))**, inspired by the incredible book ["Crafting Interpreters"](https://craftinginterpreters.com/) by Bob Nystrom.
 
 ### Core Architecture
 
@@ -59,13 +59,13 @@ DOTAL is a feature-complete language supporting a powerful blend of procedural a
 
 The easiest way to use DOTAL is to download the pre-compiled installer for Windows.
 
-1.  Navigate to the **[Releases Page](https://github.com/[YOUR_USERNAME]/dotal-lang/releases)**.
+1.  Navigate to the **[Releases Page](https://github.com/VikShelby/dotal-lang/releases)**.
 2.  Download the `DOTAL_Setup.exe` from the latest release.
 3.  Run the installer. It will add the `dotal` command to your system PATH and associate `.al` files.
 
 You can then run any DOTAL script from your command line:
 ```bash
-dotal path/to/your/script.al```
+dotal path/to/your/script.al
 
 ### 🛠️ Building from Source
 
@@ -76,7 +76,7 @@ For those who want to build the language themselves.
 
 #### Build Command
 From the root of the repository, run the following command:
-```bash
+
 # For a release build with optimizations
 gcc -Wall -O2 -o dotal src/*.c
 
@@ -119,4 +119,4 @@ porosia.servir();
 
 This project is licensed under the **MIT License**. See the `LICENSE` file for full details.
 
-Copyright (c. 2024 **[Your Name]**
+Copyright (c. 2025 **Emanuel Dervishi**
